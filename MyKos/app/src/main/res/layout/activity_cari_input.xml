@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Jarak"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_jarak"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Biaya Kos"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_biaya"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Jenis kelamin"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_jk"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Jumlah Penghuni"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_jmlpenghuni"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Meja Kursi"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_mejakursi"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Lemari"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_lemari"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tempat Tidur"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_tmpttidur"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="KM dalam"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_kmluar"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Kipas Angin"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_kipas"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ac"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_ac"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="TV"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_tv"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Kulkas"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_kulkas"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Dispenser"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_dispenser"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Internet"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_internet"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ruang Tamu"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_ruangtamu"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Dapur"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_dapur"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mesin Cuci"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_mesincuci"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Pembantu"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_pembantu"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Cuci Gosok"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_cucigosok"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="CCTV"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_cctv"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Kolam Renang"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_kolamrenang"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Parkir Motor"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_parkirmotor"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Parkir Mobil"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_parkirmobil"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Restaurant"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_restaurant"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Warnet"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_warnet"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mall"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_mall"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Apotek"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_apotek"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="bank"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_bank"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="kendaraan umum"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_kendaraanumum"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="supermarket"
+                        android:textColor="@color/colorPutih"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/f_input_supermarket"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/b_cari_cari"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorKuning"
+                android:text="Cari"
+                android:textColor="@color/colorHitam"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

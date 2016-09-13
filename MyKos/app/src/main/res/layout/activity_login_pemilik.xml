@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:theme="@style/AppTheme">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/f_lpemilik_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="@color/colorAbuTua2"
+            android:textColor="@color/colorHitam"
+            android:background="@color/colorPutih" />
+
+        <EditText
+            android:id="@+id/f_lpemilik_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="@color/colorAbuTua2"
+            android:textColor="@color/colorHitam"
+            android:background="@color/colorPutih"/>
+        <Button
+            android:id="@+id/b_lpemilik_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="end"
+            android:textSize="20sp"
+            android:text="Login"
+            android:textColor="@color/colorHitam"
+            android:background="@color/colorKuning"/>
+        <Button
+            android:id="@+id/b_lpemilik_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:layout_gravity="end"
+            android:textSize="20sp"
+            android:text="Not a member? Sign up now."
+            android:textColor="@color/colorPutih"
+            android:background="@null"/>
+    </LinearLayout>
+</RelativeLayout>

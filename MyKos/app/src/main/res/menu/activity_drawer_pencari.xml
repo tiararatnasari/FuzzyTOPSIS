@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pencari_carikos"
+            android:icon="@drawable/menu_carikos"
+            android:title="Cari Kos" />
+        <item
+            android:id="@+id/nav_pencari_riwayatkos"
+            android:icon="@drawable/menu_riwayatkos"
+            android:title="Riwayat Pencarian" />
+    </group>
+
+    <item android:title="Profil Anda">
+        <menu>
+            <item
+                android:id="@+id/nav_pencari_ubahprofil"
+                android:icon="@drawable/menu_ubahprofil"
+                android:title="Ubah Profil" />
+            <item
+                android:id="@+id/nav_pencari_signout"
+                android:icon="@drawable/menu_signout"
+                android:title="Signout" />
+        </menu>
+    </item>
+
+</menu>

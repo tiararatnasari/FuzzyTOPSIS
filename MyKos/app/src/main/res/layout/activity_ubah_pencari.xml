@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:theme="@style/AppTheme">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <Spinner
+                android:id="@+id/s_upencari_univ"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorHitam"
+                android:hint="Universitas"
+                android:popupBackground="@color/colorPutih"
+                android:textColor="@color/colorPutih"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/s_upencari_fak"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorHitam"
+                android:hint="Fakultas"
+                android:popupBackground="@color/colorPutih"
+                android:textColor="@color/colorPutih"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/s_upencari_prodi"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorHitam"
+                android:hint="Program Studi"
+                android:popupBackground="@color/colorPutih"
+                android:textColor="@color/colorPutih"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/f_upencari_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPutih"
+                android:hint="Nama"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"/>
+
+            <Spinner
+                android:id="@+id/s_upencari_jk"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorHitam"
+                android:hint="Jenis Kelamin"
+                android:popupBackground="@color/colorPutih"
+                android:textColor="@color/colorPutih"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/f_upencari_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPutih"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"/>
+
+            <Button
+                android:id="@+id/b_upencari_ubahpass"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorKuning"
+                android:text="Ubah Password"
+                android:textColor="@color/colorHitam"
+                android:textSize="15sp"
+                android:onClick="pencari_register"/>
+
+            <EditText
+                android:id="@+id/f_upencari_passlama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorAbuMuda3"
+                android:hint="Password Lama"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/f_upencari_passbaru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorAbuMuda3"
+                android:hint="Password Baru"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/f_upencari_repassbaru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorAbuMuda3"
+                android:hint="Retype Password Baru"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/b_upencari_ubah"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorKuning"
+                android:text="Ubah"
+                android:textColor="@color/colorHitam"
+                android:textSize="20sp"
+                android:onClick="pencari_register"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

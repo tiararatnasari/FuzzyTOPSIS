@@ -1,0 +1,908 @@
+<resources>
+    <string name="app_name">MyKos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="jumlah_cari">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="jenis_kelamin">
+        <item>Perempuan</item>
+        <item>Laki-Laki</item>
+    </string-array>
+    <string-array name="jk_penghuni">
+        <item>Perempuan</item>
+        <item>Laki-Laki</item>
+        <item>Campur</item>
+    </string-array>
+    <string-array name="univ">
+        <item>Universitas Airlangga</item>
+        <item>Institut Teknologi Sepuluh Nopember</item>
+        <item>Universitas Negeri Surabaya</item>
+        <item>Universitas Kristen Petra</item>
+        <item>universitas Surabaya</item>
+        <item>Universitas Ciputra</item>
+        <item>Universitas Hang Tuah</item>
+        <item>Universitas 17 Agustus 1945</item>
+        <item>Universitas Katolik Widya Mandala</item>
+        <item>Universitas Dr. Soetomo</item>
+        <item>Universitas Wijaya Kusuma</item>
+        <item>Universitas Muhammadiyah Surabaya</item>
+        <item>Universitas Pembangunan Nasional Veteran Jatim</item>
+        <item>Sekolah Tinggi Ilmu Ekonomi Indonesia</item>
+        <item>Universitas PGRI Adi Buana</item>
+    </string-array>
+    <string-array name="fak01">
+        <item>Fakultas Kedokteran</item>
+        <item>Fakultas Kedokteran Gigi</item>
+        <item>Fakultas Farmasi</item>
+        <item>Fakultas Kedokteran Hewan</item>
+        <item>Fakultas Sains dan Teknologi</item>
+        <item>Fakultas Kesehatan Masyarakat</item>
+        <item>Fakultas Keperawatan</item>
+        <item>Fakultas Perikanan dan Kelautan</item>
+        <item>Fakultas Hukum</item>
+        <item>Fakultas Ekonomi dan Bisnis</item>
+        <item>Fakultas Ilmu Sosial dan Ilmu Politik</item>
+        <item>Fakultas Psikologi</item>
+        <item>Fakultas Ilmu Budaya</item>
+        <item>Fakultas Vokasi</item>
+    </string-array>
+    <string-array name="fak02">
+        <item>Fakultas Matematika dan Ilmu Pengetahuan Alam</item>
+        <item>Fakultas Teknologi Informasi</item>
+        <item>Fakultas Teknik Sipil dan Perencanaan</item>
+        <item>Fakultas Teknologi Kelautan</item>
+        <item>Fakultas Teknologi Informasi</item>
+    </string-array>
+    <string-array name="fak03">
+        <item>Fakultas Ilmu Pendidikan</item>
+        <item>Fakultas Bahasa dan Seni</item>
+        <item>Fakultas MIPA</item>
+        <item>Fakultas Ilmu Sosial dan Hukum</item>
+        <item>Fakultas Teknik</item>
+        <item>Fakultas Ilmu Keolahragahan</item>
+        <item>Fakultas Ekonomi</item>
+        <item>Pascasarjana</item>
+    </string-array>
+    <string-array name="fak04">
+        <item>Fakultas Sastra</item>
+        <item>Fakultas Teknologi Industri</item>
+        <item>Fakultas Ekonomi</item>
+        <item>Ilmu Komunikasi</item>
+        <item>Teknik Sipil dan Perencanaan</item>
+        <item>Seni dan Desain</item>
+        <item>Ilmu Pendidikan</item>
+        <item>Pasca Sarjana</item>
+    </string-array>
+    <string-array name="fak05">
+        <item>Politeknik</item>
+        <item>Farmasi</item>
+        <item>Hukum</item>
+        <item>Bisnis dan Ekonomika</item>
+        <item>Psikologi</item>
+        <item>Teknik</item>
+        <item>Teknobiologi</item>
+        <item>Industri Kreatif</item>
+    </string-array>
+    <string-array name="fak06">
+        <item>Sarjana</item>
+        <item>Pascasarjana</item>
+    </string-array>
+    <string-array name="fak07">
+        <item>Program Diploma Pelayaran</item>
+        <item>Fakultas Teknik dan Ilmu Kelautan</item>
+        <item>Fakultas Ilmu Sosial dan Ilmu Politik</item>
+        <item>Fakultas Kedokteran</item>
+        <item>Fakultas Hukum</item>
+        <item>Fakultas Kedokteran Gigi</item>
+        <item>Fakultas Psikologi</item>
+    </string-array>
+    <string-array name="fak08">
+        <item>Fakultas Ilmu Sosial dan Politik</item>
+        <item>Fakultas Ekonomi</item>
+        <item>Fakultas Teknik</item>
+    </string-array>
+    <string-array name="fak09">
+        <item>Dilpoma</item>
+        <item>Fakultas Keguruan  Ilmu Pendidikan</item>
+        <item>Fakultas Farmasi</item>
+        <item>Fakultas Bisnis</item>
+        <item>Fakultas Teknik</item>
+        <item>Fakultas Teknologi Pertanian</item>
+        <item>Fakultas Psikologi</item>
+        <item>Fakultas Keperawatan</item>
+        <item>Fakultas Filsafat</item>
+        <item>Fakultas Ilmu Komunikasi</item>
+        <item>Fakultas Kedokteran</item>
+    </string-array>
+    <string-array name="fak10">
+        <item>Diploma</item>
+        <item>Fakultas Keguruan dan Ilmu Pendidikan</item>
+        <item>Fakultas Ilmu Komunikasi</item>
+        <item>Fakultas Ilmu Administrasi</item>
+        <item>Fakultas Ekonomi</item>
+        <item>Fakultas Sastra</item>
+        <item>Fakultas Teknik</item>
+        <item>Fakultas Hukum</item>
+        <item>Fakultas Pertanian</item>
+    </string-array>
+    <string-array name="fak11">
+        <item>Fakultas Teknik</item>
+        <item>Fakultas Pertanian</item>
+        <item>Fakultas Hukum</item>
+        <item>Fakultas Ekonomi</item>
+        <item>Fakultas Ilmu Sosial Politik</item>
+        <item>Fakultas Bahasa dan Sains</item>
+        <item>Fakultas Kedokteran</item>
+        <item>Fakultas Kedokteran Hewan</item>
+    </string-array>
+    <string-array name="fak12">
+        <item>Fakultas Agama Islam</item>
+        <item>Fakultas Ilmu Kesehatan</item>
+        <item>Fakultas Teknik</item>
+        <item>Fakultas Ekonomi</item>
+        <item>Fakultas Hukum</item>
+        <item>Fakultas Psikologi</item>
+        <item>Fakultas Kedokteran</item>
+        <item>Fakultas Keguruan dan Ilmu Pendidikan</item>
+    </string-array>
+    <string-array name="fak13">
+        <item>Fakultas Ekonomi dan Bisnis</item>
+        <item>Fakultas Teknologi Industri</item>
+        <item>Fakultas Ilmu Sosial dan Politik</item>
+        <item>Fakultas Teknik Sipil dan Perencanaan</item>
+        <item>Fakultas Pertanian</item>
+        <item>Fakultas Hukum</item>
+    </string-array>
+    <string-array name="fak14">
+        <item>Ekonomi</item>
+    </string-array>
+    <string-array name="fak15">
+        <item>FKIP</item>
+        <item>Ekonomi</item>
+        <item>FMIPA</item>
+        <item>FTSP</item>
+        <item>FTI</item>
+        <item>Diploma</item>
+    </string-array>
+    <string-array name="ps0101">
+        <item>S1 - Pendidikan Bidan</item>
+        <item>S1 - Pendidikan Dokter</item>
+        <item>S2 - Ilmu Forensik</item>
+        <item>S2 - Ilmu Kedokteran Dasar</item>
+        <item>S2 - Ilmu Kedokteran Tropis</item>
+        <item>S2 - Imunologi</item>
+        <item>S2 - Imu Kesehatan Olahraga</item>
+        <item>S2 - Ilmy Kesehatan Reprodksi</item>
+        <item>S3 - Ilmu Kedokteran</item>
+        <item>S3 - Ilmu Kesehatan</item>
+    </string-array>
+    <string-array name="ps0102">
+        <item>S1 - Pendidikan Dokter Gigi</item>
+        <item>S2 - Ilmu Kesehatan Gigi</item>
+    </string-array>
+    <string-array name="ps0103">
+        <item>S1 - Pendidikan Apoteker</item>
+        <item>S2 - Ilmu Farmasi</item>
+        <item>S2 - Farmasi Klinik</item>
+        <item>S3 - Ilmu Farmasi</item>
+    </string-array>
+    <string-array name="ps0104">
+        <item>S1 - Pendidikan Dokter Hewan</item>
+        <item>S2 - Ilmu Penyakit Dan Kesehatan Masyarakat Veteriner</item>
+        <item>S2 - Agribisnis Veteriner</item>
+        <item>S2 - Vaksinologi dan Imunoterapetika</item>
+        <item>S3 - Sains Veteriner</item>
+    </string-array>
+    <string-array name="ps0105">
+        <item>S1 - Matematika</item>
+        <item>S1 - Sistem Informasi</item>
+        <item>S1 - Fisika</item>
+        <item>S1 - Biologi</item>
+        <item>S1 - Teknobiomedik</item>
+        <item>S1 - Ilmu dan Teknologi Lingkungan</item>
+        <item>S1 - Kimia</item>
+        <item>S1 - Statistika</item>
+        <item>S2 - Biologi</item>
+        <item>S2 - Kimia</item>
+        <item>S2 - Teknobiomedik</item>
+        <item>S3 - Ilmu Matematika dan IPA</item>
+    </string-array>
+    <string-array name="ps0106">
+        <item>S1 - Kesehatan Masyarakat</item>
+        <item>S1 - Ilmu Gizi</item>
+        <item>S2 - Ilmu Kesehatan Masyarakat</item>
+        <item>S2 - Keselamatan dan Kesehatan Kerja</item>
+        <item>S2 - Kesehatan Lingkungan</item>
+        <item>S2 - Administrasi dan Kebijakan Kesehatan</item>
+        <item>S2 - Epidemiologi</item>
+    </string-array>
+    <string-array name="ps0107">
+        <item>S1 - Pendidikn Ners</item>
+        <item>S2 - Keperawatan</item>
+    </string-array>
+    <string-array name="ps0108">
+        <item>S1 - Budidaya Perairan</item>
+        <item>S1 - Teknologi Industri Hasil Perikanan</item>
+        <item>S2 - Bioteknologi Perikanan dan Kelautan</item>
+    </string-array>
+    <string-array name="ps0109">
+        <item>S1 - Ilmu Hukum</item>
+        <item>S2 - Ilmu Hukum</item>
+        <item>S2 - Kenotariatan</item>
+        <item>S2 - Sains Hukum dan Pembangunan</item>
+        <item>S2 - Kajian Hak Atas Kekayaan Intelektual</item>
+        <item>S2 - Kajian Ilmu Kepoisian</item>
+        <item>S3 - Ilmu Hukum</item>
+    </string-array>
+    <string-array name="ps0110">
+        <item>S1 - Ilmu Ekonomi Islam</item>
+        <item>S1 - Ekonomi Pembangunan</item>
+        <item>S1 - Manajemen</item>
+        <item>S1 - Akuntansi</item>
+        <item>S1 - Program Profesi Akuntansi</item>
+        <item>S2 - Ilmu Ekonomi</item>
+        <item>S2 - Magister Manajemen</item>
+        <item>S2 - Sains Manajemen</item>
+        <item>S2 - Sains Ekonomi Islam</item>
+        <item>S2 - Akuntansi</item>
+        <item>S2 - Manajemen Bencana</item>
+        <item>S3 - Ilmu Ekonomi</item>
+        <item>S3 - Ilmu Ekonomi Islam</item>
+        <item>S3 - Ilmu Akuntansi</item>
+        <item>S3 - Ilmu Manajemen</item>
+    </string-array>
+    <string-array name="ps0111">
+        <item>S1 - Ilmu Administrasi Negara</item>
+        <item>S1 - Ilmu Hubungan Internasional</item>
+        <item>S1 - Ilmu Politik</item>
+        <item>S1 - Sosiologi</item>
+        <item>S1 - Ilmu Komunikasi</item>
+        <item>S1 - Ilmu Informasi dan Perpustakaan</item>
+        <item>S1 - Antropologi</item>
+        <item>S2 - Kebijakan Publik</item>
+        <item>S2 - Hubungan Internasional</item>
+        <item>S2 - Ilmu Politik</item>
+        <item>S2 - Sosiologi</item>
+        <item>S2 - Media dan Komunikasi</item>
+        <item>S2 - Pengembangan Sumber Daya Manusia</item>
+        <item>S3 - Ilmu Sosial</item>
+        <item>S3 - PSDM</item>
+    </string-array>
+    <string-array name="ps0112">
+        <item>S1 - Psikologi</item>
+        <item>S2 - Sains Psikologi</item>
+        <item>S2 - Perubahan dan Pengembangan Organisasi</item>
+        <item>S2 - Magister Profesi Psikologi</item>
+        <item>S3 - Ilmu Psikologi</item>
+    </string-array>
+    <string-array name="ps0113">
+        <item>S1 - Sastra Inggris</item>
+        <item>S1 - Sastra Indonesia</item>
+        <item>S1 - Ilmu Sejarah</item>
+        <item>S1 - Sastra Jepang</item>
+        <item>S2 - Kajian Sastra dan Budaya</item>
+        <item>S2 - Ilmu Linguistik</item>
+    </string-array>
+    <string-array name="ps0114">
+        <item>D3 - Pengobatan Tradisional</item>
+        <item>D3 - Fisioterapi</item>
+        <item>D3 - Analis Medis</item>
+        <item>D3 - Teknik Kesehatan Gigi</item>
+        <item>D3 - Kesehatan Ternak</item>
+        <item>D3 - Higine Perusahaan, Kesehatan dan Keselamatan Kerja</item>
+        <item>D3 - Otomasi Sistem Instrumentasi</item>
+        <item>D3 - Sistem Informasi</item>
+        <item>D3 - Teknisi Perpustakaan</item>
+        <item>D3 - Manajemen Pemasaran</item>
+        <item>D3 - Manajemen Perbankan</item>
+        <item>D3 - Akuntansi</item>
+        <item>D3 - Perpajakan</item>
+        <item>D3 - Manajemen Kesekretariatan dan Perkantoran</item>
+        <item>D3 - Manajemen Perhotelan</item>
+        <item>D3 - Kepariwisataan / Bina Wisata</item>
+        <item>D3 - Bahasa Inggris</item>
+        <item>D4 - Pengobatan Tradisional</item>
+        <item>D4 - Fisioterapi</item>
+        <item>D4 - Radiologi</item>
+    </string-array>
+    <string-array name="ps0201">
+        <item>D3 - Statistika</item>
+        <item>S1 - Matematika</item>
+        <item>S1 - Fisika</item>
+        <item>S1 - Kimia</item>
+        <item>S1 - Statistika</item>
+        <item>S1 - Biologi</item>
+        <item>S2 - Matematika</item>
+        <item>S2 - Fisika</item>
+        <item>S2 - Kimia</item>
+        <item>S2 - Kimia Pengajaran</item>
+        <item>S2 - Statistika</item>
+        <item>S3 - Fisika</item>
+        <item>S3 - Kimia</item>
+        <item>S3 - Statistika</item>
+    </string-array>
+    <string-array name="ps0202">
+        <item>D3 - Teknik Mesin</item>
+        <item>D3 - Teknik Elektro</item>
+        <item>D3 - Teknik Kimia</item>
+        <item>D3 - Teknik Fisika</item>
+        <item>S1 - Teknik Mesin</item>
+        <item>S1 - Teknik Elektro</item>
+        <item>S1 - Teknik Kimia</item>
+        <item>S1 - Teknik Fisika</item>
+        <item>S1 - Teknik Industri</item>
+        <item>S1 - Teknik Material dan Metalurgi</item>
+        <item>S1 - Manajemen Bisnis</item>
+        <item>S1 - Teknik Multimedia dan Jaringan</item>
+        <item>S1 - Teknik Biomedik</item>
+        <item>S2 - Teknik Mesin</item>
+        <item>S2 - Teknik Elektro</item>
+        <item>S2 - Teknik Kimia</item>
+        <item>S2 - Teknik Fisika</item>
+        <item>S2 - Teknik Industri</item>
+        <item>S2 - Teknik Material dan Metalurgi</item>
+        <item>S3 - Teknik Mesin</item>
+        <item>S3 - Teknik Elektro</item>
+        <item>S3 - Teknik Kimia</item>
+        <item>S3 - Teknik Fisika</item>
+        <item>S3 - Teknik Industri</item>
+    </string-array>
+    <string-array name="ps0203">
+        <item>D3 - Teknik Sipil</item>
+        <item>S1 - Teknik Sipil</item>
+        <item>S1 - Teknik Lingkungan</item>
+        <item>S1 - Arsitektur</item>
+        <item>S1 - Desain Produk Industri</item>
+        <item>S1 - Perencanaan Wilayah dan Kota</item>
+        <item>S1 - Teknik Geomatika</item>
+        <item>S1 - Teknik Geofisika</item>
+        <item>S1 - Desain Interior</item>
+        <item>S2 - Teknik Sipil</item>
+        <item>S2 - Teknik Lingkungan</item>
+        <item>S2 - Arsitektur</item>
+        <item>S2 - Desain Produk Industri</item>
+        <item>S2 - Perencanaan Wilayah dan Kota</item>
+        <item>S3 - Teknik Sipil</item>
+        <item>S3 - Teknik Lingkungan</item>
+        <item>S3 - Arsitektur</item>
+    </string-array>
+    <string-array name="ps0204">
+        <item>S1 - Teknik Perkapalan</item>
+        <item>S1 - Teknik Sistem Perkapalan</item>
+        <item>S1 - Teknik Kelautan</item>
+        <item>S1 - Transportasi Laut</item>
+        <item>S2 - Teknik Perkapalan</item>
+        <item>S2 - Teknik Sistem Perkapalan</item>
+        <item>S2 - Teknik Kelautan</item>
+        <item>S2 - Transportasi Laut</item>
+        <item>S3 - Teknik Perkapalan</item>
+        <item>S3 - Teknik Sistem Perkapalan</item>
+        <item>S3 - Teknik Kelautan</item>
+        <item>S3 - Transportasi Laut</item>
+    </string-array>
+    <string-array name="ps0205">
+        <item>S1 - Teknik Informatika</item>
+        <item>S1 - Sistem Informasi</item>
+        <item>S2 - Teknik Informatika</item>
+        <item>S2 - Sistem Informasi</item>
+    </string-array>
+    <string-array name="ps0301">
+        <item>S1 - Teknologi Pendidikan</item>
+        <item>S1 - Psikologi</item>
+        <item>S1 - Bimbingan dan Konseling</item>
+        <item>S1 - Pendidikan Luar Biasa</item>
+        <item>S1 - Pendidikan Guru Sekolah Dasar</item>
+        <item>S1 - Pendidikan Guru Pendidikan Anak Usia Dini</item>
+        <item>S1 - Manajemen Pendidikan</item>
+        <item>S1 - Pendidikan Luar Sekolah</item>
+    </string-array>
+    <string-array name="ps0302">
+        <item>D3 - Desain Grafis</item>
+        <item>S1 - Pendidikan Bahasa dan Sastra Inggris</item>
+        <item>S1 - Pendidikan Bahasa dan Sastra Indonesia</item>
+        <item>S1 - Pendidikan Bahasa dan Sastra Jerman</item>
+        <item>S1 - Pendidikan Bahasa dan Sastra Jepang</item>
+        <item>S1 - Pendidikan Bahasa dan Sastra Jawa</item>
+        <item>S1 - Pendidikan Seni Drama, Tari dan Musik</item>
+        <item>S1 - Pendidikan Seni Rupa</item>
+        <item>S1 - Sastra Indonesia</item>
+        <item>S1 - Sastra Inggris</item>
+        <item>S1 - Sasatra Jerman</item>
+        <item>S1 - Pendidikan Bahasa Mandarin</item>
+    </string-array>
+    <string-array name="ps0303">
+        <item>S1 - Pendidikan Matematika</item>
+        <item>S1 - Pendidikan Fisika</item>
+        <item>S1 - Pendidikan Kimia</item>
+        <item>S1 - Pendidikan Biologi</item>
+        <item>S1 - Matematika</item>
+        <item>S1 - Fisika</item>
+        <item>S1 - Kimia</item>
+        <item>S1 - Biologi</item>
+        <item>S1 - Ilmu Pengetahuan Alam</item>
+    </string-array>
+    <string-array name="ps0304">
+        <item>D3 - Administrasi Negara</item>
+        <item>S1 - PPKN</item>
+        <item>S1 - Ilmu Administrasi Negara</item>
+        <item>S1 - Ilmu Hukum</item>
+        <item>S1 - Pendidikan Geografi</item>
+        <item>S1 - Pendidikan Sejarah</item>
+        <item>S1 - Sosiologi</item>
+        <item>S1 - Ilmu Komunikasi</item>
+    </string-array>
+    <string-array name="ps0305">
+        <item>D3 - Teknik Listrik</item>
+        <item>D3 - Manajemen Informatika</item>
+        <item>D3 - Teknik Mesin</item>
+        <item>D3 - Teknik Sipil</item>
+        <item>D3 - Transportasi</item>
+        <item>D3 - Tata Boga</item>
+        <item>D3 - Tata Busana</item>
+        <item>S1 - Pendidikan Teknik Elektro</item>
+        <item>S1 - Pendidikan Teknik Mesin</item>
+        <item>S1 - Pendidikan Teknik Bangunan</item>
+        <item>S1 - Teknik Sipil</item>
+        <item>S1 - Pendidikan Teknologi Informasi</item>
+        <item>S1 -Teknik Elektro</item>
+        <item>S1 - Teknik Mesin</item>
+        <item>S1 - Pendidikan Tata Boga</item>
+        <item>S1 - Pendidikan Tata Busana</item>
+        <item>S1 - Pendidikan Tata Rias</item>
+    </string-array>
+    <string-array name="ps0306">
+        <item>S1 - Pendidikan Olahraga</item>
+        <item>S1 - Pendidikan Kesehatan dan Rekreasi</item>
+        <item>S1 - Pendidikan Kepelatihan Olahraga</item>
+    </string-array>
+    <string-array name="ps0307">
+        <item>D3 - Akuntansi</item>
+        <item>S1 - Pendidikan Ekonomi</item>
+        <item>S1 - Pendidikan Akuntansi</item>
+        <item>S1 - Pendidikan Administrasi Perkantoran</item>
+        <item>S1 - Pendidikan Tata Niaga</item>
+        <item>S1 - Manajemen</item>
+        <item>S1 - Akuntansi</item>
+        <item>S1 - Ekonomi Islam</item>
+    </string-array>
+    <string-array name="ps0308">
+        <item>S2 - Pendidikan Matematika</item>
+        <item>S2 - Manajemen Pendidikan</item>
+        <item>S2 - Pendidikan Bahasa</item>
+        <item>S2 - Pendidikan Olahraga</item>
+        <item>S2 - Pendidikan Sains</item>
+        <item>S2 - Pendidikan Dasar</item>
+        <item>S2 - Pendidikan Teknologi dan Kejujuran</item>
+        <item>S2 - Teknologi Pendidikan</item>
+        <item>S2 - Pendidikan IPS</item>
+        <item>S2 - Pendidikan Seni Budaya</item>
+        <item>S2 - Pendidikan Luar Biasa</item>
+        <item>S2 - Pendidikan Ekonomi</item>
+        <item>S2 - Pendidikan Luar Sekolah</item>
+        <item>S3 - Pendidikan Matematika</item>
+        <item>S3 - Ilmu Keolahragaan</item>
+        <item>S3 - Pendidikan Bahasa dan Sastra</item>
+        <item>S3 - Pendidikan Sains</item>
+        <item>S3 - Teknologi Pendidikan</item>
+        <item>S3 - Manajemen Pendidikan</item>
+    </string-array>
+    <string-array name="ps0401">
+        <item>S1 - English for Business</item>
+        <item>S1 - English for Creative industry</item>
+        <item>S1 - Sastra Tionghoa</item>
+    </string-array>
+    <string-array name="ps0402">
+        <item>S1 - Teknik Elektro</item>
+        <item>S1 - Teknik Mesin</item>
+        <item>S1 - Otomotif</item>
+        <item>S1 - Teknik Informatika</item>
+        <item>S1 - Sistem Informasi Bisinis</item>
+        <item>S1 - Teknik Industri</item>
+    </string-array>
+    <string-array name="ps0403">
+        <item>S1 - Akuntansi Bisnis</item>
+        <item>S1 - Akuntansi Pajak</item>
+        <item>S1 - Manajemen Bisnis</item>
+        <item>S1 - Manajemen Pemasaran</item>
+        <item>S1 - Manajemen Keuangan</item>
+        <item>S1 - Manajemen Pariwisata</item>
+        <item>S1 - Manajemen Perhotelan</item>
+        <item>S1 - International Business Management</item>
+        <item>S1 - International Business Accounting</item>
+    </string-array>
+    <string-array name="ps0404">
+        <item>S1 - Ilmu Komunikasi</item>
+    </string-array>
+    <string-array name="ps0405">
+        <item>S1 - Teknik Sipil</item>
+        <item>S1 - Arsitektur</item>
+    </string-array>
+    <string-array name="ps0406">
+        <item>S1 - Desain Interior</item>
+        <item>S1 - Desain Komunikasi Visual</item>
+        <item>S1 - International Program in Digital Media</item>
+    </string-array>
+    <string-array name="ps0407">
+        <item>S1 - Pendidikan Guru SD</item>
+    </string-array>
+    <string-array name="ps0408">
+        <item>S2 - Magister Teknik Industri</item>
+        <item>S2 - Magister Teknik Sipil</item>
+        <item>S2 - Magister Manajemen</item>
+        <item>S2 - Magister Ilmu Susastra</item>
+    </string-array>
+    <string-array name="ps0501">
+        <item>D3 - Administrasi Bisnis</item>
+        <item>D3 - Akuntansi</item>
+        <item>D3 - Akuntansi Komputer</item>
+        <item>D3 - Bahasa Inggris Bisnis</item>
+        <item>D3 - Manajemen Pemasaran</item>
+        <item>D3 - Perpajakan</item>
+        <item>D3 - Perpajakan Profesional</item>
+        <item>D3 - Professional Sellig</item>
+        <item>D3 - Sekretari</item>
+    </string-array>
+    <string-array name="ps0502">
+        <item>S1 - Farmasi</item>
+        <item>S2 - Magister Ilmu Farmasi</item>
+        <item>Program Profesi - Apoteker</item>
+    </string-array>
+    <string-array name="ps0503">
+        <item>S1 - Hukum</item>
+        <item>S2 - Magister Hukum</item>
+        <item>S2 - Magister Kenotariatan</item>
+    </string-array>
+    <string-array name="ps0504">
+        <item>S1 - Kuangan Korporat</item>
+        <item>S1 - Manajemen Jejaring Bisnis</item>
+        <item>S1 - Manajemen Layanan dan Pariwisata</item>
+        <item>S1 - Manajemen Pemasaran</item>
+        <item>S1 - Manajemen SDM dan Organisasi</item>
+        <item>S1 - Pasar Modal</item>
+        <item>S1 - Perbankan dan Jasa Keuangan</item>
+        <item>S1 - Professional Accounting</item>
+        <item>S2 - Magister Akuntansi</item>
+        <item>S2 - Magister Manajemen</item>
+    </string-array>
+    <string-array name="ps0505">
+        <item>S1 - Psikologi</item>
+        <item>S2 - Magister Psi. Profesi</item>
+        <item>S2 - Magister Psikologi Sains</item>
+    </string-array>
+    <string-array name="ps0506">
+        <item>S1 - IF - P. K. Multimedia</item>
+        <item>S1 - IF - P. K. Sistem Informasi</item>
+        <item>S1 - Industrial Robotics Design</item>
+        <item>S1 - Information Technology</item>
+        <item>S1 - P. K. Teknik Manufaktur</item>
+        <item>S1 - Teknik Industri</item>
+        <item>S1 - Teknik Informatika</item>
+        <item>S1 - Teknik Kimia</item>
+        <item>S1 - Telecommunication Networks Design</item>
+    </string-array>
+    <string-array name="ps0507">
+        <item>S1 - Biologi (Bioteknologi)</item>
+    </string-array>
+    <string-array name="ps0508">
+        <item>S1 - Desain dan Manajemen Produk</item>
+        <item>S1 - Desain Fashion dan Produk Lifestyle</item>
+    </string-array>
+    <string-array name="ps0601">
+        <item>S1 - International Business Management</item>
+        <item>S1 - Akuntansi</item>
+        <item>S1 - Marketing Communication</item>
+        <item>S1 - International Hospitality and Tourism Busines</item>
+        <item>S1 - Bisnis Kuliner</item>
+        <item>S1 - Psikologi</item>
+        <item>S1 - Teknologi Informasi dan Multimedia</item>
+        <item>S1 - Sistem Informasi Bisnis</item>
+        <item>S1 - Desain Komunikasi Visual</item>
+        <item>S1 - Arsitektur Interior</item>
+        <item>S1 - Bisnis Desain Fashion</item>
+        <item>S1 - Kedokteran</item>
+    </string-array>
+    <string-array name="ps0602">
+        <item>S2 - Magister Manajemen</item>
+    </string-array>
+    <string-array name="ps0701">
+        <item>D3 - Nautika</item>
+        <item>D3 - Teknika</item>
+        <item>D3 - Studiketatalaksanaan pelayaran niaga</item>
+    </string-array>
+    <string-array name="ps0702">
+        <item>S1 - Perikanan</item>
+        <item>S1 - Teknik Kelautan</item>
+        <item>S1 - Teknik Elektro</item>
+        <item>S1 - Teknik Sistem Perkapalan</item>
+        <item>S1 - Teknik Perkapalan</item>
+    </string-array>
+    <string-array name="ps0703">
+        <item>S1- Ilmu Administrasi Negara / Publik</item>
+        <item>S1 - Ilmu Administrasi Niaga / Bisnis</item>
+        <item>S2 - Magister Administrasi Publik</item>
+    </string-array>
+    <string-array name="ps0704">
+        <item>S1 - Farmasi</item>
+        <item>S1 - Kedokteran</item>
+    </string-array>
+    <string-array name="ps0705">
+        <item>S1 - Ilmu Hukum</item>
+    </string-array>
+    <string-array name="ps0706">
+        <item>S1 - Ilmu Kedokteran Gigi</item>
+    </string-array>
+    <string-array name="ps0707">
+        <item>S1 - Ilmu Psikologi</item>
+    </string-array>
+    <string-array name="ps0801">
+        <item>S1 - Administrasi Negara</item>
+        <item>S1 - Administrasi Niaga</item>
+        <item>S1 - Ilmu Komunikasi</item>
+        <item>S2 - Magister Administrasi</item>
+        <item>S3 - Doktor Ilmu Administrasi</item>
+    </string-array>
+    <string-array name="ps0802">
+        <item>S1 - Ekonomi Manajemen</item>
+        <item>S1 - Ekonomi Akuntansi</item>
+        <item>S1 - Ekonomi Pembangunan</item>
+        <item>S2 - Magister Manajemen</item>
+        <item>S3 - Doktor Ilmu Ekonomi</item>
+    </string-array>
+    <string-array name="ps0803">
+        <item>S1 - Teknik Industri</item>
+        <item>S1 - Teknik Mesin</item>
+        <item>S1 - Teknik Elektro</item>
+        <item>S1 - Teknik Informatika</item>
+        <item>S1 - Teknik Sipil</item>
+        <item>S1 - Teknik Arsitektur</item>
+        <item>S2 - Magister Teknik</item>
+    </string-array>
+    <string-array name="ps0901">
+        <item>D3 - Akademisi Sekretari</item>
+        <item>D3 - Akuntansi</item>
+    </string-array>
+    <string-array name="ps0902">
+        <item>S1 - Pendidikan Fisika</item>
+        <item>S1 - Pendidikan B. Inggris</item>
+        <item>S2 - Magister Pendidikan Bahasa Inggris</item>
+    </string-array>
+    <string-array name="ps0903">
+        <item>S1 - Farmasi</item>
+        <item>S1 - Pendidikan Profesi Apoteker</item>
+    </string-array>
+    <string-array name="ps0904">
+        <item>S1 - Manajemen</item>
+        <item>S1 - Akuntansi</item>
+        <item>S1 - International Business Management</item>
+        <item>S2 - Magister Manajemen</item>
+        <item>S3 - Doktor Ilmu Manajemen</item>
+    </string-array>
+    <string-array name="ps0905">
+        <item>S1 - Teknik Elektro</item>
+        <item>S1 - Teknik Kimia</item>
+        <item>S1 - Teknik Industri</item>
+    </string-array>
+    <string-array name="ps0906">
+        <item>S1 - Teknologi Pangan dan Gizi</item>
+    </string-array>
+    <string-array name="ps0907">
+        <item>S1 - Psikologi</item>
+    </string-array>
+    <string-array name="ps0908">
+        <item>S1 - Ilmu Keperawatan</item>
+    </string-array>
+    <string-array name="ps0909">
+        <item>S1 - Ilmu Filsafat</item>
+    </string-array>
+    <string-array name="ps0910">
+        <item>S1 - Ilmu Komunikasi</item>
+    </string-array>
+    <string-array name="ps0911">
+        <item>S1 - Pendidikan Dokter</item>
+    </string-array>
+    <string-array name="ps1001">
+        <item>D3 - Kesekretariatan</item>
+    </string-array>
+    <string-array name="ps1002">
+        <item>S1 - Pendidikan Bahasa dan Sastra Indonesia</item>
+        <item>S1 - Pendidikan Matematika</item>
+        <item>S2 - Pendidikan Bahasa Indonesia</item>
+    </string-array>
+    <string-array name="ps1003">
+        <item>S1 - Ilmu Komunikasi</item>
+        <item>S2 - Ilmu Komunikasi</item>
+    </string-array>
+    <string-array name="ps1004">
+        <item>S1 - Ilmu Administrasi Negara</item>
+        <item>S1 - Ilmu Administrasi Niaga</item>
+        <item>S2 - Ilmu Administrasi</item>
+    </string-array>
+    <string-array name="ps1005">
+        <item>S1 - Akuntansi</item>
+        <item>S1 - Ekonomi Pembangunan</item>
+        <item>S1 - Manajemen</item>
+        <item>S2 - Manajemen</item>
+    </string-array>
+    <string-array name="ps1006">
+        <item>S1 - Sastra Inggris</item>
+        <item>S1 - Sastra Jepang</item>
+    </string-array>
+    <string-array name="ps1007">
+        <item>S1 - Teknik Informatika</item>
+        <item>S1 - Teknik Sipil</item>
+    </string-array>
+    <string-array name="ps1008">
+        <item>S1 - Ilmu Hukum</item>
+    </string-array>
+    <string-array name="ps1009">
+        <item>S1 - Budidaya Perairan</item>
+        <item>S1 - Agrobisnis Perikanan</item>
+        <item>S1 - Pemanfaatan Sumber Daya Perikanan</item>
+        <item>S1 - Teknologi Pangan</item>
+    </string-array>
+    <string-array name="ps1101">
+        <item>S1 - Teknik Sipil</item>
+        <item>S1 - Teknik Informatika</item>
+        <item>S1 - Teknik Industri Pertanian</item>
+        <item>S1 - Sistem Informasi</item>
+    </string-array>
+    <string-array name="ps1102">
+        <item>S1 - Agroteknologi</item>
+        <item>S1 - Agrobisnis</item>
+        <item>S2 - Magister Manajemen Agribisnis</item>
+    </string-array>
+    <string-array name="ps1103">
+        <item>S1 - Ilmun Hukum</item>
+        <item>S2 - Magister Ilmu Hukum</item>
+    </string-array>
+    <string-array name="ps1104">
+        <item>S1 - Ekonomi Pembangunan</item>
+        <item>S1 - Manajemen</item>
+        <item>S1 - Akuntansi</item>
+        <item>S2 - Magister Akuntansi</item>
+    </string-array>
+    <string-array name="ps1105">
+        <item>S1 - Ilmu Perpustakaan</item>
+        <item>S1 - Ilmu Kesejahteraan Sosial</item>
+        <item>S1 - Ilmu Politik</item>
+        <item>S1 - Ilmu Sosiologi</item>
+        <item>S2 - Magister Ilmu Politik</item>
+    </string-array>
+    <string-array name="ps1106">
+        <item>S1 - Pendidikan Bahasa dan Sastra Indonesia</item>
+        <item>S1 - Pendidikan Bahasa Inggris</item>
+        <item>S1 - Pendidikan Biologi</item>
+        <item>S1 - Pendidikan Matematika</item>
+        <item>S1 - Pendidikan Guru Sekolah Dasar</item>
+    </string-array>
+    <string-array name="ps1107">
+        <item>S1 - Pendidikan Kedokteran</item>
+        <item>Profesi Dokter</item>
+    </string-array>
+    <string-array name="ps1108">
+        <item>S1 - Kesehatan Hewan dan Masyarakat Veteriner</item>
+        <item>S1 - Pendidikan Kedokteran Hewan</item>
+        <item>Profesi Dokter Hewan</item>
+    </string-array>
+    <string-array name="ps1201">
+        <item>S1 - Hukum Keluarga Islam</item>
+        <item>S1 - Pendidikan Agama Islam</item>
+        <item>S1 - Pendidikan Guru Madrasah Ibtidaiyah</item>
+        <item>S1 - Pendidikan Agama</item>
+        <item>S1 - Perbankan Syariah</item>
+    </string-array>
+    <string-array name="ps1202">
+        <item>D3 - Keperawatan</item>
+        <item>D3 - Analis Kesehatan</item>
+        <item>D3 - Kebidanan</item>
+        <item>S1 - Keperawatan</item>
+    </string-array>
+    <string-array name="ps1203">
+        <item>S1 - Teknik Elektro Perkapalan</item>
+        <item>S1 - Teknik Mesin</item>
+        <item>S1 - Teknik Sipil</item>
+        <item>S1 - Teknik Arsitektur</item>
+        <item>S1 - Teknik Perkapalan</item>
+        <item>D3 - Teknik Komputer</item>
+    </string-array>
+    <string-array name="ps1204">
+        <item>S1 - Manajemen</item>
+        <item>S1 - Akuntansi</item>
+    </string-array>
+    <string-array name="ps1205">
+        <item>S1 - Ilmu Hukum</item>
+    </string-array>
+    <string-array name="ps1206">
+        <item>S1 - Psikologi</item>
+    </string-array>
+    <string-array name="ps1207">
+        <item>S1 - Kedokteran</item>
+    </string-array>
+    <string-array name="ps1208">
+        <item>S1 - Pendidikan Biologi</item>
+        <item>S1 - Pendidikan Bahasa dan Sastra Indonesia</item>
+        <item>S1 - Pendidikan Bahasa Inggris</item>
+    </string-array>
+    <string-array name="ps1301">
+        <item>S1 - Ekonomi Pembangunan</item>
+        <item>S1 - Manajemen</item>
+        <item>S1 - Akuntansi</item>
+        <item>S2 - Magister Manajemen</item>
+        <item>S2 - Magister Akuntansi</item>
+    </string-array>
+    <string-array name="ps1302">
+        <item>S1 - Teknik Industri</item>
+        <item>S1 - Teknik Kimia</item>
+        <item>S1 - Teknologi Pangan</item>
+        <item>S1 - Teknik Informatika</item>
+        <item>S1 - Sistem Informasi</item>
+    </string-array>
+    <string-array name="ps1303">
+        <item>S1 - Administrasi Negara</item>
+        <item>S1 - Administrasi Bisnis</item>
+        <item>S1 - Ilmu Komunikasi</item>
+        <item>S1 - Hubungan Internasional</item>
+    </string-array>
+    <string-array name="ps1304">
+        <item>S1 - Arsitektur</item>
+        <item>S1 - Teknik Sipil</item>
+        <item>S1 - Teknik Lingkungan</item>
+        <item>S1 - Desain Komunikasi Visual</item>
+    </string-array>
+    <string-array name="ps1305">
+        <item>S1 - Argoteknologi</item>
+        <item>S1 - Agribisnis</item>
+        <item>S2 - Magister Manajemen Agribisnis</item>
+    </string-array>
+    <string-array name="ps1306">
+        <item>S1 - Ilmu HUkum</item>
+    </string-array>
+    <string-array name="ps1401">
+        <item>D3 - Akuntansi</item>
+        <item>D3 - Manajemen Perpajakan</item>
+        <item>S1 - Akuntansi</item>
+        <item>S1 - Manajemen</item>
+        <item>Profesi Akuntansi</item>
+        <item>S2 - Ilmu Akuntansi</item>
+        <item>S2 - Manajemen</item>
+        <item>S3 - Ilmu Manajemen</item>
+    </string-array>
+    <string-array name="ps1501">
+        <item>S1 - Bimbingan dan Konseling</item>
+        <item>S1 - Pendidikan Kesejahteraan Keluarga</item>
+        <item>S1 - Pendidikan Moral Pancasila dan Kewarganegaraan</item>
+        <item>S1 - Pendidikan Bahasa dan Sastra Indonesia</item>
+        <item>S1 - Pendidikan Matematika</item>
+        <item>S1 - Pendidikan Bahasa Inggris</item>
+        <item>S1 - Pendidikan Kepelatihan Olahraga</item>
+        <item>S1 - Pendidikan Seni Rupa</item>
+        <item>S1 - Pendidikan Guru Sekolah Dasar</item>
+        <item>S1 - Pendidikan Guru - PAUD</item>
+        <item>S2 - Teknologi Pembelajaran</item>
+    </string-array>
+    <string-array name="ps1502">
+        <item>S1 - Akuntansi</item>
+        <item>S1 - Manajemen</item>
+    </string-array>
+    <string-array name="ps1503">
+        <item>S1 - Biologi</item>
+        <item>S1 - Statistika</item>
+    </string-array>
+    <string-array name="ps1504">
+        <item>S1 - Teknik Lingkungan</item>
+        <item>S1 - Perencanaan Wilayah dan Kota</item>
+    </string-array>
+    <string-array name="ps1505">
+        <item>S1 - Teknik Elektro</item>
+        <item>S1 - Teknik Industri</item>
+    </string-array>
+    <string-array name="ps1506">
+        <item>D3 - Kebidanan</item>
+    </string-array>
+</resources>

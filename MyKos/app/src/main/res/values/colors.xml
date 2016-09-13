@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorKuning">#fae906</color>
+    <color name="colorPutih">#ffffff</color>
+    <color name="colorAbuMuda1">#eeeeee</color>
+    <color name="colorAbuMuda2">#cfd8dc</color>
+    <color name="colorAbuMuda3">#b6b6b6</color>
+    <color name="colorAbuTua1">#373737</color>
+    <color name="colorAbuTua2">#212121</color>
+    <color name="colorHitam">#000000</color>
+</resources>

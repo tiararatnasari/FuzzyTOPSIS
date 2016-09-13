@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/detail_infokos1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/flipper_cari_infoumum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Identitas Kos"
+                    android:textColor="@color/colorPutih"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/f_kelola_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:hint="Nama Kos"
+                    android:padding="10dp"
+                    android:textColor="@color/colorHitam"
+                    android:textColorHint="@color/colorAbuTua2"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/f_kelola_alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:hint="Alamat Kos"
+                    android:padding="10dp"
+                    android:textColor="@color/colorHitam"
+                    android:textColorHint="@color/colorAbuTua2"
+                    android:textSize="15sp" />
+
+                <Spinner
+                    android:id="@+id/f_kelola_kecamatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorHitam"
+                    android:hint="Kecamatan"
+                    android:popupBackground="@color/colorPutih"
+                    android:textColor="@color/colorPutih"
+                    android:textSize="12sp" />
+
+                <Spinner
+                    android:id="@+id/f_kelola_kelurahan"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorHitam"
+                    android:hint="Kelurahan"
+                    android:popupBackground="@color/colorPutih"
+                    android:textColor="@color/colorPutih"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/f_kelola_biaya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:hint="Biaya Sewa"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/colorHitam"
+                    android:textColorHint="@color/colorAbuTua2"
+                    android:textSize="15sp" />
+
+                <Spinner
+                    android:id="@+id/s_kelola_jk"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorHitam"
+                    android:hint="Jenis Kelamin"
+                    android:popupBackground="@color/colorPutih"
+                    android:textColor="@color/colorPutih"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/f_kelola_jmlpenghuni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:hint="Jumlah Penghuni Per Kamar"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/colorHitam"
+                    android:textColorHint="@color/colorAbuTua2"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/detail_infokos2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/flipper_kelola_fasilitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Fasilitas Kos"
+                    android:textColor="@color/colorPutih"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp">
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_mejakursi"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Meja Kursi"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_lemari"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Lemari"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_tempattidur"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Tempat Tidur"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_kipasangin"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Kipas Angin"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_ac"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="AC"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_kmluar"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="KM Luar"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_internet"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Internet"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_ruangtamu"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ruang Tamu"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_dapur"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Dapur"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_kolamrenang"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Klm Renang"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_tv"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="TV"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_kulkas"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Kulkas"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_mesincuci"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mesin Cuci"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_dispenser"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Dispenser"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_pembantu"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Pembantu"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_cucigosok"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Cuci Gosok"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/c_kelola_cctv"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="CCTV"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="45dp"
+                        android:text="Jumlah parkir motor"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/f_kelola_parkirmotor"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="45dp"
+                        android:text="Jumlah parkir mobil"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/f_kelola_parkirmobil"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/detail_infokos3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/flipper_kelola_fasumterdekat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Jarak Kos dengan Fasilitas Umum"
+                    android:gravity="center"
+                    android:textColor="@color/colorPutih"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/f_kelola_restaurant"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPutih"
+                        android:hint="Restaurant"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="@color/colorHitam"
+                        android:textColorHint="@color/colorAbuTua2"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="km"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/f_kelola_warnet"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPutih"
+                        android:hint="Warnet"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="@color/colorHitam"
+                        android:textColorHint="@color/colorAbuTua2"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="km"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/f_kelola_mall"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPutih"
+                        android:hint="Mall"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="@color/colorHitam"
+                        android:textColorHint="@color/colorAbuTua2"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="km"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/f_kelola_apotek"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPutih"
+                        android:hint="Apotek"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="@color/colorHitam"
+                        android:textColorHint="@color/colorAbuTua2"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="km"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/f_kelola_bank"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPutih"
+                        android:hint="Bank"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="@color/colorHitam"
+                        android:textColorHint="@color/colorAbuTua2"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="km"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/f_kelola_kendaraanumum"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPutih"
+                        android:hint="Kendaraan Umum"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="@color/colorHitam"
+                        android:textColorHint="@color/colorAbuTua2"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="km"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@color/colorPutih"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/f_kelola_supermarket"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPutih"
+                        android:hint="Supermarket"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="@color/colorHitam"
+                        android:textColorHint="@color/colorAbuTua2"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="km"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/b_kelola_save"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorKuning"
+                    android:text="Save"
+                    android:textColor="@color/colorHitam"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </ViewFlipper>
+
+    <ImageButton
+        android:id="@+id/swipe_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/swipe_left" />
+
+    <ImageButton
+        android:id="@+id/swipe_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/swipe_right" />
+
+</RelativeLayout>

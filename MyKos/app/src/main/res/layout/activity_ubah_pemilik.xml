@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:theme="@style/AppTheme">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <EditText
+                android:id="@+id/f_upemilik_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPutih"
+                android:hint="Nama"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"/>
+
+            <EditText
+                android:id="@+id/f_upemilik_telp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPutih"
+                android:hint="Telp"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"/>
+
+            <EditText
+                android:id="@+id/f_upemilik_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPutih"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"/>
+
+            <Button
+                android:id="@+id/b_upemilik_ubahpass"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorKuning"
+                android:text="Ubah Password"
+                android:textColor="@color/colorHitam"
+                android:textSize="15sp"
+                android:onClick="pencari_register"/>
+
+            <EditText
+                android:id="@+id/f_upemilik_passlama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorAbuMuda3"
+                android:hint="Password Lama"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/f_upemilik_passbaru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorAbuMuda3"
+                android:hint="Password Baru"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/f_upemilik_repassbaru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorAbuMuda3"
+                android:hint="Retype Password Baru"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:textColor="@color/colorHitam"
+                android:textColorHint="@color/colorAbuTua2"
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/b_upemilik_ubah"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorKuning"
+                android:text="Ubah"
+                android:textColor="@color/colorHitam"
+                android:textSize="20sp"
+                android:onClick="pemilik_register"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

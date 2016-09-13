@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/f_lpencari_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPutih"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorHitam"
+            android:textColorHint="@color/colorAbuTua2" />
+
+        <EditText
+            android:id="@+id/f_lpencari_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPutih"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorHitam"
+            android:textColorHint="@color/colorAbuTua2" />
+
+        <Button
+            android:id="@+id/b_lpencari_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorKuning"
+            android:text="Login"
+            android:textColor="@color/colorHitam"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/b_lpencari_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:text="Not a member? Sign up now."
+            android:textAllCaps="false"
+            android:textColor="@color/colorPutih"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</RelativeLayout>

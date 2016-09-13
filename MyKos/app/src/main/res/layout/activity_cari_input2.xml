@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Spinner
+                android:id="@+id/s_input_univ"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorHitam"
+                android:hint="Universitas"
+                android:popupBackground="@color/colorPutih"
+                android:textColor="@color/colorPutih"
+                android:textSize="10sp" />
+            <Spinner
+                android:id="@+id/s_input_fak"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/colorHitam"
+                android:hint="Fakultas"
+                android:popupBackground="@color/colorPutih"
+                android:textColor="@color/colorPutih"
+                android:textSize="10sp" />
+            <Spinner
+                android:id="@+id/s_input_prodi"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/colorHitam"
+                android:hint="Program Studi"
+                android:popupBackground="@color/colorPutih"
+                android:textColor="@color/colorPutih"
+                android:textSize="10sp" />
+            <Spinner
+                android:id="@+id/s_input_jk"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/colorHitam"
+                android:hint="Jenis Kelamin"
+                android:popupBackground="@color/colorPutih"
+                android:textColor="@color/colorPutih"
+                android:textSize="10sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_jarak"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Jarak"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_jarak"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:enabled="false"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_biaya"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Biaya Kos"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_biaya"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_jk"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Jenis kelamin"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_jk"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_jmlpenghuni"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Jmlh Penghuni"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_jmlpenghuni"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_mejakursi"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Meja Kursi"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_mejakursi"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_lemari"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Lemari"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_lemari"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_tmpttidur"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Tempat Tidur"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_tmpttidur"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_kmluar"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="KM dalam"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_kmluar"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_kipas"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Kipas Angin"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_kipas"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_ac"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Ac"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_ac"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_tv"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="TV"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_tv"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_kulkas"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Kulkas"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_kulkas"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_dispenser"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Dispenser"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_dispenser"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_internet"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Internet"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_internet"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_ruangtamu"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Ruang Tamu"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_ruangtamu"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_dapur"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Dapur"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_dapur"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_mesincuci"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Mesin Cuci"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_mesincuci"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_pembantu"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Pembantu"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_pembantu"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_cucigosok"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Cuci Gosok"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_cucigosok"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_cctv"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="CCTV"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_cctv"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_kolamrenang"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Kolam Renang"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_kolamrenang"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_parkirmotor"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Parkir Motor"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_parkirmotor"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_parkirmobil"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Parkir Mobil"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_parkirmobil"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_restaurant"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Restaurant"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_restaurant"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+                    <Button
+                        android:id="@+id/b_input_warnet"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Warnet"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_warnet"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_mall"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Mall"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_mall"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_apotek"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="Apotek"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_apotek"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <Button
+                        android:id="@+id/b_input_bank"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="bank"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_bank"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+                    <Button
+                        android:id="@+id/b_input_supermarket"
+                        android:layout_width="125dp"
+                        android:layout_height="30dp"
+                        android:text="supermarket"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_supermarket"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+                    <Button
+                        android:id="@+id/b_input_kendaraanumum"
+                        android:layout_width="170dp"
+                        android:layout_height="30dp"
+                        android:text="kendaraan umum"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@color/colorKuning"/>
+
+                    <EditText
+                        android:id="@+id/f_input_kendaraanumum"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:background="@color/colorPutih"
+                        android:textColor="@color/colorHitam"
+                        android:textSize="15sp"
+                        android:enabled="false"/>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/b_cari_clear"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@color/colorAbuMuda3"
+                    android:text="Clear"
+                    android:textColor="@color/colorHitam"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingTop="5dp">
+                <Spinner
+                    android:id="@+id/s_input_jmlh_cari"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@color/colorHitam"
+                    android:popupBackground="@color/colorPutih"
+                    android:textColor="@color/colorPutih"
+                    android:textSize="10sp" />
+                <Button
+                    android:id="@+id/b_cari_cari"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@color/colorKuning"
+                    android:text="Cari"
+                    android:textColor="@color/colorHitam"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/master_putih"/>
+
+        <Button
+            android:id="@+id/b_awal_next"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorKuning"
+            android:text="Next"
+            android:textColor="@color/colorAbuTua1"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

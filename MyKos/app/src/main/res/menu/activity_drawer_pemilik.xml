@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pemilik_keloladata"
+            android:icon="@drawable/menu_keloladata"
+            android:title="Kelola Data Kos" />
+    </group>
+
+    <item android:title="Profil Anda">
+        <menu>
+            <item
+                android:id="@+id/nav_pemilik_ubahprofil"
+                android:icon="@drawable/menu_ubahprofil"
+                android:title="Ubah Profil Pengguna" />
+            <item
+                android:id="@+id/nav_pemilik_signout"
+                android:icon="@drawable/menu_signout"
+                android:title="Singout" />
+        </menu>
+    </item>
+
+</menu>
